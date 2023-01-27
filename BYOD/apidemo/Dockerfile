@@ -9,7 +9,7 @@ ENV GID=15011
 
 #RUN addgroup -S appgroup && adduser -S appuser -G appgroup
 
-USER spring
+USER 18877:15011
 
 ARG JAR_FILE=build/libs/apidemo-0.0.1-SNAPSHOT.jar
 COPY ${JAR_FILE} app.jar
