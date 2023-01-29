@@ -1,6 +1,6 @@
 FROM --platform=linux/amd64 eclipse-temurin:18-jdk-alpine
 
-RUN addgroup -S --gid 15011 spring && adduser -S --uid 18877 spring -G spring
+
 
 ENV UID=18877
 ENV GID=15011
